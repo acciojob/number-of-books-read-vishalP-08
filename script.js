@@ -16,7 +16,7 @@ const library = [
   },
 ];
 
-const numberOfBooksRead = () => {
+const numberOfBooksRead(library){
   let count = 0;
 
   for (const book of library) {
